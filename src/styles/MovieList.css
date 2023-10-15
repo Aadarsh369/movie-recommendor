@@ -1,0 +1,14 @@
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 5%;
+    gap: 20px;
+}
+
+/* Responsive styling: Adjusting for smaller screens */
+@media (max-width: 768px) {
+    .movie-list {
+        justify-content: center;
+    }
+}

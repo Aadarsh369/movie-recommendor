@@ -1,0 +1,24 @@
+.movie-thumbnail {
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.movie-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.movie-thumbnail h2 {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+/* Adding hover effect for a bit of interaction */
+.movie-thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
