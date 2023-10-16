@@ -4,8 +4,8 @@ function MovieHighlight() {
     return (
         <div className="movie-highlight">
             <img src="path-to-highlight-image.jpg" alt="Highlight Movie" />
-            <h1>Guardians of the Galaxy Volume 3</h1>
-            <p>Peter Quill, still reeling from the loss of Gamora...</p>
+            <h1>Movie-highlights</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque cumque officiis eos!</p>
             <button>Watch now</button>
         </div>
     );
