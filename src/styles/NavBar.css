@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.navbar {
+    font-family: 'PT Sans', sans-serif;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-logo img {
+    width: 100px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links li {
+    position: relative;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+    position: relative;
+    padding-bottom: 3px;
+}
+
+.navbar-links li a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #ff3c00; 
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s; 
+}
+
+.navbar-links li a:hover {
+    color: #ffcc00;
+}
+
+.navbar-links li a:hover::before {
+    width: 100%; 
+}
+
+.navbar-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.search-icon,
+.profile-icon {
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.search-icon:hover,
+.profile-icon:hover {
+    transform: scale(1.2);
+}
