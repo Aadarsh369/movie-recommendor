@@ -7,7 +7,7 @@ import img_data from '../Resources/data.js';
 function MovieList() {
     const movies = [
         { id: 1, title: "John Wick Chapter 4", imageUrl: img_data[0].src },
-        {id: 2, title: "Prime Time", imageUrl: img_data[1].src}
+        {id: 2, title: "Avengers - End Game", imageUrl: img_data[1].src}
     ];
 
     return (
