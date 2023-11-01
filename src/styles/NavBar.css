@@ -10,14 +10,11 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.navbar-logo img {
-    width: 100px;
-}
-
 .navbar-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 75px;
+    margin-left: 290px;
 }
 
 .navbar-links li {
@@ -37,10 +34,10 @@
     position: absolute;
     width: 0;
     height: 2px;
-    background-color: #ff3c00; 
+    background-color: #ff3c00;
     bottom: 0;
     left: 0;
-    transition: width 0.3s; 
+    transition: width 0.3s;
 }
 
 .navbar-links li a:hover {
@@ -48,22 +45,45 @@
 }
 
 .navbar-links li a:hover::before {
-    width: 100%; 
+    width: 100%;
 }
 
-.navbar-icons {
+.search{
     display: flex;
-    gap: 20px;
 }
 
 .search-icon,
-.profile-icon {
+.dark-mode-icon {
     font-size: 24px;
     cursor: pointer;
     transition: transform 0.3s;
 }
 
 .search-icon:hover,
-.profile-icon:hover {
+.dark-mode-icon:hover {
     transform: scale(1.2);
+}
+
+/* Styles for the search box */
+.navbar-search {
+    margin-right: 20px; /* Adjust this value for spacing */
+}
+
+.navbar-search input {
+    width: 260px;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+}
+
+.navbar-search input::placeholder {
+    color: #999; /* Placeholder text color */
+}
+
+.navbar-search input:focus {
+    outline: none;
+    background-color: #444; /* Change the background on focus */
 }

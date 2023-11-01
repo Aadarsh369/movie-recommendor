@@ -1,7 +1,7 @@
 import React from 'react';
 import MovieThumbnail from './MovieThumbnail';
 import '../styles/MovieList.css';
-import img_data from '../Resources/data.js';
+import img_data from '../resources/data.js';
 
 
 function MovieList() {

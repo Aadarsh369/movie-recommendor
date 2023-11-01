@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/MovieHighlight.css';
 
 function MovieHighlight() {
     return (
         <div className="movie-highlight">
-           <button>Watch now</button>
+           
         </div>
     );
 }
