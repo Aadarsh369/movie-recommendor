@@ -14,7 +14,7 @@
     list-style: none;
     display: flex;
     gap: 75px;
-    margin-left: 290px;
+    margin-left: 631px;
 }
 
 .navbar-links li {
@@ -64,9 +64,8 @@
     transform: scale(1.2);
 }
 
-/* Styles for the search box */
 .navbar-search {
-    margin-right: 20px; /* Adjust this value for spacing */
+    margin-right: 20px; 
 }
 
 .navbar-search input {
@@ -80,10 +79,46 @@
 }
 
 .navbar-search input::placeholder {
-    color: #999; /* Placeholder text color */
+    color: #999; 
 }
 
 .navbar-search input:focus {
     outline: none;
-    background-color: #444; /* Change the background on focus */
+    background-color: #444;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000;
+    display: none;
+    transition: opacity 0.3s;
+    opacity: 0;
+}
+
+.navbar-links li:hover .dropdown {
+    display: block;
+    opacity: 1;
+}
+
+.dropdown ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown li {
+    text-align: center;
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.dropdown a:hover {
+    background-color: #333;
 }
