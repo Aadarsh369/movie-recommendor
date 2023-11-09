@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../styles/NavBar.css';
 
 let Movies = ['Action', 'Drama', 'Sci-Fi','Crime','Fantasy','Thriller','Adventure'];
-let Languages = ['English','Hindi'];
+let Languages = ['English','Hindi', 'French'];
 function Navbar() {
     const [isMoviesDropdownOpen, setMoviesDropdownOpen] = useState(false);
     const [isLanguagesDropdownOpen, setLanguagesDropdownOpen] = useState(false);
