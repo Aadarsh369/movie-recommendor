@@ -1,9 +1,8 @@
 .movie-list {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
-    margin: 20px 5%;
-    gap: 20px;
+    margin: 220px 5%;
+    gap: 54px;
 }
 
 /* Responsive styling: Adjusting for smaller screens */
